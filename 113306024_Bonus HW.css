@@ -1,0 +1,81 @@
+/* 中心對齊整個表單 */
+.form-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; /* 使用百分比而非 px */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* 讓邊角變圓 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+/* 標題 */
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* 表單組樣式 */
+.form-group {
+    border: 1px solid black;
+    background-color: beige;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* 標籤和輸入框 */
+label {
+    font-family: Times New Roman;
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input, textarea {
+    width: 100%; /* 使用百分比寬度 */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* 圓角 */
+    box-sizing: border-box;
+}
+
+/* 調整 textarea */
+textarea {
+    resize: none; /* 禁止調整大小 */
+    height: 100px;
+}
+
+/* 按鈕樣式 */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.form-group {
+    overflow: hidden; /* 清除浮動 */
+}
+
+label {
+    float: left;
+    width: 30%;
+    margin-top: 10px;
+}
+
+input, textarea {
+    float: right;
+    width: 65%;
+}
